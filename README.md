@@ -50,8 +50,6 @@ ket : ✅ : aktif
 
 
 
-## THANKS TO
-* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
 
 ## DONASI
 * [`FOLLOW IG SAYA SAJA`](https://instagram.com/serenyemnyem) 
