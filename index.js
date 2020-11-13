@@ -108,7 +108,7 @@ if (text == '!donasi')
 {
 conn.sendMessage(id, tambahan.donasi ,MessageType.text);
 }
-if (text == '#donasi')
+if (text == '¥donasi')
 {
 conn.sendMessage(id, tambahan.donasi ,MessageType.text);
 }
@@ -116,7 +116,7 @@ if (text == '!donate')
 {
 conn.sendMessage(id, tambahan.donasi ,MessageType.text);
 }
-if (text == '#donate')
+if (text == '¥donate')
 {
 conn.sendMessage(id, tambahan.donasi ,MessageType.text);
 }
@@ -124,7 +124,7 @@ else if (text == '!info')
 {
 conn.sendMessage(id, tambahan.info ,MessageType.text);
 }
-else if (text == '#info')
+else if (text == '¥info')
 {
 conn.sendMessage(id, tambahan.info ,MessageType.text);
 }
@@ -176,15 +176,15 @@ else if (text == '!menu')
 {
 conn.sendMessage(id, tambahan.menu ,MessageType.text);
 }
-else if (text == '¥help')
-{
-conn.sendMessage(id, tambahan.menu ,MessageType.text);
-}
 else if (text == '#help')
 {
 conn.sendMessage(id, tambahan.menu ,MessageType.text);
 }
-else if (text == '¥rules')
+else if (text == '!help')
+{
+conn.sendMessage(id, tambahan.menu ,MessageType.text);
+}
+else if (text == '#rules')
 {
 conn.sendMessage(id, tambahan.rules ,MessageType.text);
 }
@@ -652,7 +652,7 @@ if (text.includes("#animepict"))
     
 if (text.includes("#loli"))
    {
-    var items = ["anime loli", "anime hentai loli", "anime eroneko loli"];
+    var items = ["anime loli"];
     var nime = items[Math.floor(Math.random() * items.length)];
     var url = "https://api.fdci.se/rep.php?gambar=" + nime;
     
